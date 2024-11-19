@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Estudio Larsen</title>
+    <link href="css/estilos.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+</head> 
+<body>
+    <header class="header"> 
+        <div id="logo">
+            <img src="imagenes/logolarsen.png" alt="Logo Estudio Larsen">
+        </div>
+        <nav>
+            <input type="checkbox" id="menuhamburguesa" class="menuhamburguesa">
+            <label class="label_hamburguesa" for="menuhamburguesa">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                    width="35" 
+                    height="35" 
+                    fill="currentColor" 
+                    class="list_icon" 
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" 
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+            </label>
+            <ul class="links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        
+        <img src="imagenes/contacto.jpg" alt="Contacto">
+        <p class="texto-contacto">Si estás interesado en trabajar con nosotros o tienes alguna consulta sobre nuestros servicios, puedes contactarnos a través de diferentes medios.</p>
+    
+        <article class="oficina-container">
+            <h2>Oficina</h2>
+            <p>Dirección: Larsen 2963, Villa Pueyrredon</p>
+            <p>Teléfono: 01133326584</p>
+            <p>Email: mf@larsen01.com</p>
+        </article>
+    
+        <article>
+            <h3>Contáctese y con gusto lo asesoramos</h3>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <ul class="footer">
+            <li><img src="imagenes/instagram.png" alt="instagram"></li>
+            <li><img src="imagenes/whatsaap.png" alt="whatsapp"></li>
+            <li><img src="imagenes/correo-electronico.png" alt="mail"></li>
+        </ul>
+    </footer>
+</body> 
+</html>
+
